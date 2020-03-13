@@ -1,0 +1,36 @@
+body{
+    background: url(../bg12.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 590px;
+}
+.topnav{
+    background:transparent;
+    overflow: hidden;
+    position: relative;
+    left: 230px;
+}
+.topnav a{
+    float: left;
+    color: skyblue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: skyblue;
+    color: snow;
+}
+h2{
+    text-align: center;
+}
+p{
+    border: dotted;
+    border-color: skyblue;
+    font-size: 20px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 600px;
+}
