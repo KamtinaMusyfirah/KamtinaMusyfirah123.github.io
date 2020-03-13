@@ -1,0 +1,96 @@
+body{
+    background: url(../bg12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.topnav{
+    background:transparent;
+    overflow: hidden;
+    position: relative;
+    left: 230px;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: skyblue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+.topnav a:hover{
+    background-color: skyblue;
+    color: snow;
+}
+h2{
+    text-align: center;
+}
+body li{
+    margin: 20px 0;
+    width: 500px;
+    margin: 60px auto;
+    list-style: none;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: pink;
+}
+
+.html{
+    width: 95%;
+    animation: html 2s;
+}
+.css{
+    width: 90%;
+    animation: css 2s;
+}
+.javascript{
+    width: 30%;
+    animation: javascript 2s;
+}
+.bootstrap{
+    width: 89%;
+    animation: bootstrap 2s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 89%;
+    }
+}
