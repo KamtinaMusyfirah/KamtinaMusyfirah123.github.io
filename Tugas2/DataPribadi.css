@@ -2,6 +2,7 @@ body{
     background: url(../bg12.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .topnav{
     background:transparent;
