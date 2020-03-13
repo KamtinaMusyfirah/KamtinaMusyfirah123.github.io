@@ -1,0 +1,57 @@
+*{
+    justify-content: center;
+    align-items: center;
+}
+body
+{
+    background: url(../bg12.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Courgette', cursive;
+    padding: 20px;
+}
+.topnav{
+    background:transparent;
+    overflow: hidden;
+    position: relative;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: skyblue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+.topnav a:hover{
+    background-color: skyblue;
+    color: snow;
+}
+h1{
+    text-align: center;
+    font-weight: 100;
+    color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table{
+    background-color: pink;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+th td{
+    border: 2px solid #fff;
+    border-collapse: collapse;
+    padding: 15px;
+}
